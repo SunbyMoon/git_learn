@@ -46,9 +46,7 @@ int main()
     char n[100] = {"\0"};
     {
         strcpy1(n, m);
-        int i; {
         printf("%s\n", n);
-        }  
     }
     char s[] = "How are you";
     {
