@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* obtain the average score of every subject presented by the struct */
 main()
 {
     struct date
@@ -42,7 +42,7 @@ main()
     }      
 	for (i = 0; i < 4; i++)
 	{
-		average[i] = sum[i]/4;
+		average[i] = sum[i]/2;
 		printf("%20s : %4.2f\n", name[i], *(average+i));
 	}
 }
